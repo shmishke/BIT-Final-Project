@@ -1,0 +1,28 @@
+.ReportCards {
+  width: 60%;
+  height: 70px;
+  display: flex;
+  margin-bottom: 30px;
+  background-color: #05a081;
+  border-radius: 10px;
+}
+.slika {
+  width: 40%;
+  img {
+    height: 100%;
+    border-radius: 50%;
+    padding-left: 10px;
+  }
+}
+.detalji {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  font-size: 30px;
+  color: #232a34;
+}
+.clicked {
+  background-color: rgba(189, 189, 190, 0.521);
+}

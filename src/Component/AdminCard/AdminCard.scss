@@ -1,0 +1,42 @@
+.ReportCard {
+  display: flex;
+  background-color: #05a081;
+  margin: 30px auto;
+}
+
+.name,
+.date,
+.status,
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  width: 33%;
+  border: solid black 1px;
+}
+
+.date {
+  width: 16%;
+  border: solid black 1px;
+}
+.status {
+  width: 10%;
+  border: solid black 1px;
+  text-align: center;
+}
+
+.button {
+  width: 8%;
+  border: solid black 1px;
+  text-align: center;
+
+  button {
+    margin: 0 5px;
+    background: transparent;
+    border: 0;
+    font-size: 30px;
+  }
+}

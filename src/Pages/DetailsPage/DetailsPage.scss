@@ -1,0 +1,62 @@
+table {
+  border-spacing: 0;
+  width: 100%;
+
+  th {
+    border: 2px solid black;
+    border-right: none;
+    width: 33%;
+  }
+}
+.candidateCardContainer {
+  background-color: #232a34;
+
+  min-height: calc(100vh - (37px + 37px + 16px));
+
+  max-width: 100vw;
+
+  .CandidateCards {
+    // background-color:#232a34;
+    background-color: #05a081;
+    display: flex;
+    padding: 50px;
+    color: #232a34;
+
+    .Candidateimage {
+      width: 30%;
+
+      img {
+        width: 300px;
+      }
+    }
+
+    .Candidateinfo {
+      display: flex;
+      flex-wrap: wrap;
+
+      div {
+        width: 50%;
+        // border: 1px solid red;
+        // background-color: #05a081;
+      }
+    }
+  }
+  .CandidateTable {
+    background-color: rgb(128, 123, 115);
+    width: 90%;
+    margin: 25px auto;
+    border-collapse: collapse;
+
+    .tr-tabela {
+      background-color: #05a081;
+      color: #232a34;
+      text-align: left;
+
+      font-weight: 600;
+    }
+  }
+}
+.rep {
+  color: #05a081;
+  margin: 10px 0 30px 10px;
+}

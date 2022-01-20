@@ -1,0 +1,25 @@
+.reportRow {
+  border: 1px solid coral;
+  width: 90%;
+  height: 400px;
+}
+
+.oko {
+  width: 30px;
+  height: 20px;
+  font-size: 20px;
+
+  background-color: transparent;
+  border: 0;
+}
+
+td {
+  height: 30px;
+  border: 2px solid black;
+  border-top: 0;
+  border-right: 0;
+}
+.pasedoko{
+  display: flex;
+  justify-content: space-between;
+}

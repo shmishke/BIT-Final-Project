@@ -1,0 +1,71 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.subtitle {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  h2 {
+    color: #05a081;
+    margin-left: 20px;
+  }
+  .homesearch {
+    border: 0px;
+    margin-right: 40px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.61);
+    height: 20px;
+  }
+}
+
+.homepage {
+  background-color: #232a34;
+  min-height: calc(100vh - (37px + 37px + 16px));
+}
+
+.CardList {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  margin-top: 50px;
+  // margin-bottom: 50px;
+}
+.heroimg {
+  background-image: url(./pexels-kaique-rocha-380283.jpg);
+  width: 100%;
+  height: calc(100vh - 37px - 37px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin-bottom: 250px;
+    color: #232a34;
+  }
+}
+a {
+  text-decoration: none;
+}
+::-webkit-input-placeholder {
+  color: #05a081;
+}
+::-moz-placeholder {
+  color: #05a081;
+}
+:-ms-input-placeholder {
+  color: #05a081;
+}
+::-ms-input-placeholder {
+  color: #05a081;
+}
+::placeholder {
+  color: #05a081;
+}
+.lupica {
+  color: #05a081;
+  margin-right: 3px;
+}

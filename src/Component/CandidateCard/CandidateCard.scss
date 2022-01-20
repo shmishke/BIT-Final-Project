@@ -1,0 +1,29 @@
+.CandidateCard {
+  width: 250px;
+  height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 33px 100px;
+  background-color: #05a081;
+  border-radius: 10px;
+  margin-bottom: 90px;
+
+  backdrop-filter: blur(2px);
+
+  img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+  }
+  h4 {
+    color: #232a34;
+  }
+}
+.CandidateCard:hover {
+  box-shadow: 0 15px 50px 0 rgba(5, 160, 129, 0.86);
+  -webkit-backdrop-filter: blur(2px);
+  // background-color: #05a081;
+}

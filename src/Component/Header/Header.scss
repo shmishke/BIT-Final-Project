@@ -1,0 +1,20 @@
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #232a34;
+  color: #05a081;
+}
+.logbtn {
+  background-color: #05a081;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 5px;
+  margin-top: 3px;
+  margin-right: 10px;
+  border: 0;
+}
+.logbtn:hover {
+  background-color: white;
+  color: #05a081;
+}

@@ -1,0 +1,22 @@
+.Title {
+  display: flex;
+  background-color: #05a081;
+  justify-content: space-between;
+  color: #232a34;
+}
+
+.titilebtn {
+  border: 0;
+  background-color: #05a081;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  a {
+    color: #232a34;
+    text-decoration: none;
+    font-weight: 600;
+  }
+}
+.titilebtn:hover {
+  background-color: rgba(255, 255, 255, 0.39);
+}

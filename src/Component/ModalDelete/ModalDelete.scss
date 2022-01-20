@@ -1,0 +1,21 @@
+.modalDelete {
+  background-color: rgb(76, 76, 77);
+  height: 100px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  h3 {
+    margin: 0 auto;
+  }
+
+  .deletebtn {
+    align-self: flex-end;
+
+    button {
+      width: 50px;
+    }
+  }
+}
